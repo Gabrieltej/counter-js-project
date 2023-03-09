@@ -1,0 +1,83 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.food{
+ width: 100vw;
+ height: 99vh;
+ background-size: cover;
+ background-position: center;
+background: linear-gradient(to right, red,black);
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: blue;
+ font-size: 50px;
+}
+.btnone{
+ padding: 10px;
+ border-radius: 30px;
+ background: transparent;
+ color: white;
+ border: white solid;
+ cursor: pointer;
+ margin-right: 10px;
+ border-color: red;
+ font-weight: bold;
+}
+.btnone:hover{
+ background-color: yellow;
+ color: black;
+ border: yellow;
+ padding:10px;
+}
+.btntwo{
+ padding: 10px;
+ border-radius: 30px;
+ background: transparent;
+ color: white;
+ border: white solid;
+ cursor: pointer;
+ border-color: red;
+ font-weight: bold;
+}
+.btntwo:hover{
+ background-color: yellow;
+ color: black;
+ border: yellow;
+ padding:10px;
+ border: red;
+}
+.counter{
+ position:absolute;
+ top: 10vh;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.result{
+ position:absolute;
+ top: 25vh;
+ text-transform: uppercase;
+ color: yellow;
+ font-size: 6rem;
+}
+.btnthree{
+ padding: 10px;
+ border-radius: 30px;
+ background: transparent;
+ color: white;
+ border: white solid;
+ cursor: pointer;
+ border-color: red;
+ font-weight: bold;
+ position: absolute;
+ top: 420px
+}
+.btnthree:hover{
+ background-color: yellow;
+ color: black;
+ border: yellow;
+ padding:10px;
+ border: red;
+}
