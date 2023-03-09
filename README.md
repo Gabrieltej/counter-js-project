@@ -1,0 +1,3 @@
+# Counter project
+
+> This project was built on html, css and js. the aim of this project is to count down/up....
